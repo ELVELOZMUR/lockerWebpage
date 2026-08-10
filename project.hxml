@@ -1,2 +1,4 @@
 --class-path source
---js output/main.js
+-D analyzer-optimize
+--main Main
+--js public/main.js
