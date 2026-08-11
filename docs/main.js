@@ -106,13 +106,13 @@ Main.main = function() {
 	} else {
 		mainPart.style.background = "radial-gradient(#E6E6E6, #CCCCCC)";
 	}
-	mainPart.style.width = "50%";
 	mainPart.style.height = "50%";
 	mainPart.style.display = "flex";
 	mainPart.style.flexDirection = "column";
 	mainPart.style.borderRadius = "15px";
 	observer.observe(mainPart);
 	mainPart.style.opacity = "0";
+	mainPart.className = "mainpart";
 	mainPart.style.boxShadow = "5px 5px 2px 1px rgba(0, 0, 0, 0.3)";
 	biography.appendChild(mainPart);
 	var texts = "John Locke (1632-1704) fue un reconocido filosofo y contractualista ingles nacido en el siglo XVI. Murio en 1704 en High Laver, Essex a los 72 años.\r\n\t\nEstudio en la escuela de Westminster. Despues de graduarse se fue a estudiar a la Universidad de Oxford, consiguio una maestria y en 1652 se matriculo como medico.\r\n\t\nEn 1667 se convirtio en el medico personal y secretario del que pronto sera conde, Anthony Ashley Cooper. Este influyo mucho en su pensar, creyendo que el Estado debia restaurar el catolicismo bajo el mandato del Parlamento.\r\n\t\nEstuvo en Francia entre 1675 y 1678 donde, estudio a autores como Rene Descarte. No mucho despues en 1683 dejo de estar con el conde y partio caminos.".split("\n");
