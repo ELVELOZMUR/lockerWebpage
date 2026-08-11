@@ -15,4 +15,4 @@ app.get("/", function(req, res) {
 console.log("running on " + __dirname)
 console.log("Express busca los archivos estáticos en:", path.join(__dirname, "public"));
 
-app.listen(5500)
+app.listen(3000)
