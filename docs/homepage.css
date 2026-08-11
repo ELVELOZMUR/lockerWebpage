@@ -24,6 +24,10 @@ div[class^="square-"] {
     width: 90%;
 }
 
+.mainpart {
+    width: 90%;
+}
+
 @media (min-width: 768px) {
     .biography {
         flex-direction: row;
@@ -35,6 +39,10 @@ div[class^="square-"] {
 
     div[class^="square-"] {
         width: 40%;
+    }
+
+    .mainpart {
+        width: 50%;
     }
 }
 
