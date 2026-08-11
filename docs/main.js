@@ -197,6 +197,7 @@ Main.main = function() {
 	cienceApports.style.alignItems = "center";
 	cienceApports.style.boxShadow = "5px 5px 2px 1px rgba(0, 0, 0, 0.3)";
 	observer.observe(cienceApports);
+	cienceApports.className = "cience";
 	cienceApports.style.opacity = "0";
 	page.appendChild(cienceApports);
 	var apTitle = window.document.createElement("hr");
