@@ -107,10 +107,9 @@ class Main {
 
 		var biography = Browser.document.createDivElement();
 		biography.style.display = "flex";
-		biography.style.flexDirection = "row";
-		biography.style.justifyContent = "center";
-		biography.style.alignItems = "center";
 		biography.style.width = "100%";
+		biography.className = "biography";
+		biography.style.gap = "40px";
 		page.appendChild(biography);
 
 		var johnLockeImage = Browser.document.createDivElement();
@@ -120,8 +119,8 @@ class Main {
 		johnLockeImage.style.width = "330px";
 		johnLockeImage.style.height = "502px";
 		johnLockeImage.style.display = "block";
-		johnLockeImage.style.position = "relative";
-		johnLockeImage.style.left = "-10%";
+		//johnLockeImage.style.position = "relative";
+		//johnLockeImage.style.left = "-10%";
 		johnLockeImage.className = "john locke";
 		biography.appendChild(johnLockeImage);
 
@@ -168,15 +167,14 @@ class Main {
 		var squares = Browser.document.createDivElement();
 		squares.style.width = "90%";
 		squares.style.display = "flex";
-		squares.style.flexDirection = "row";
 		squares.style.justifyContent = "center";
 		squares.style.alignItems = "start";
 		squares.style.gap = "50px";
+		squares.className = "squareCont";
 		page.appendChild(squares);
 
 		for (i in 0...2) {
 			var square = Browser.document.createDivElement();
-			square.style.width = "40%";
 			if (darkMode)
 				square.style.background = "radial-gradient(#403E3E, #2E2C2B)";
 			else
@@ -187,6 +185,7 @@ class Main {
 			square.style.justifyContent = "center";
 			square.style.alignItems = "center";
 			square.style.boxShadow = "5px 5px 2px 1px rgba(0, 0, 0, 0.3)";
+			square.className = "square-" + i;
 			observer.observe(square);
 			square.style.opacity = "0";
 			squares.appendChild(square);
@@ -271,8 +270,7 @@ class Main {
 		sources.style.justifyContent = "center";
 		sources.style.alignItems = "start";
 		sources.style.gap = "20px";
-		sources.style.backgroundColor = "#3B3030";
-		sources.style.backgroundImage = "radial-gradient(#6E6E6E 5px, transparent 2px)";
+		sources.style.backgroundColor = "#36454F";
 		sources.style.backgroundSize = "60px 5px";
 		Browser.document.body.appendChild(sources);
 
@@ -292,6 +290,7 @@ class Main {
 			linkText.style.marginTop = "5px";
 			linkText.style.marginBottom = "5px";
 			linkText.style.fontSize = "16px";
+			linkText.style.color = "#1C98FF";
 			sources.appendChild(linkText);
 		}
 	}
