@@ -271,7 +271,7 @@ class Main {
 		sources.style.justifyContent = "center";
 		sources.style.alignItems = "start";
 		sources.style.gap = "20px";
-		sources.style.backgroundColor = "#858585";
+		sources.style.backgroundColor = "#3B3030";
 		sources.style.backgroundImage = "radial-gradient(#6E6E6E 5px, transparent 2px)";
 		sources.style.backgroundSize = "60px 5px";
 		Browser.document.body.appendChild(sources);
