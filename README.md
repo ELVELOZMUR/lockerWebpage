@@ -1,0 +1,1 @@
+Esta pagina fue creada con fines educativos, especificamente una pagina web estatica en la que poder exponer la biografia de john locke
