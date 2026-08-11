@@ -20,6 +20,10 @@
     flex-direction: column;
 }
 
+.cience {
+    width: 90%;
+}
+
 div[class^="square-"] {
     width: 90%;
 }
@@ -43,6 +47,10 @@ div[class^="square-"] {
 
     .mainpart {
         width: 50%;
+    }
+    
+    .cience {
+        width: 60%;
     }
 }
 
