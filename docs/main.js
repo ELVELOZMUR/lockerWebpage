@@ -185,7 +185,6 @@ Main.main = function() {
 		}
 	}
 	var cienceApports = window.document.createElement("div");
-	cienceApports.style.width = "60%";
 	if(darkMode) {
 		cienceApports.style.background = "radial-gradient(#403E3E, #2E2C2B)";
 	} else {
