@@ -119,8 +119,6 @@ class Main {
 		johnLockeImage.style.width = "330px";
 		johnLockeImage.style.height = "502px";
 		johnLockeImage.style.display = "block";
-		//johnLockeImage.style.position = "relative";
-		//johnLockeImage.style.left = "-10%";
 		johnLockeImage.className = "john locke";
 		biography.appendChild(johnLockeImage);
 
@@ -139,14 +137,13 @@ class Main {
 			mainPart.style.background = "radial-gradient(#403E3E, #2E2C2B)";
 		else
 			mainPart.style.background = "radial-gradient(#E6E6E6, #CCCCCC)";
-		mainPart.style.width = "50%";
 		mainPart.style.height = "50%";
 		mainPart.style.display = "flex";
 		mainPart.style.flexDirection = "column";
 		mainPart.style.borderRadius = "15px";
 		observer.observe(mainPart);
 		mainPart.style.opacity = "0";
-
+		mainPart.className = "mainpart";
 		mainPart.style.boxShadow = "5px 5px 2px 1px rgba(0, 0, 0, 0.3)";
 		biography.appendChild(mainPart);
 
