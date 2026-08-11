@@ -28,7 +28,7 @@ div[class^="square-"] {
     width: 90%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .biography {
         flex-direction: row;
     }
